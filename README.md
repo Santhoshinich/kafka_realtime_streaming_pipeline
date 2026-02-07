@@ -22,15 +22,8 @@ This pipeline mirrors real-world streaming systems used in:
 
 # High-Level Architecture
 
-Live Earthquake API
-        ↓
-Kafka Producer (Python)
-        ↓
-Kafka Topic (earthquakes)
-        ↓
-Spark Structured Streaming
-        ↓
-Persistent CSV Output (Micro-batches)
+<img width="360" height="257" alt="architecture" src="https://github.com/user-attachments/assets/deb08cfe-bf0c-4e16-905e-c96b6cef26fd" />
+
 
 # Technology Stack
 
