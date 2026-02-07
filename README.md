@@ -54,14 +54,16 @@ realtime-earthquake-spark/
 │   └── earthquake_producer.py      # Kafka producer (Python)
 │
 ├── spark/
-│   └── spark_streaming_job.py       # Spark Structured Streaming consumer
+│   └── spark_streaming_job.py       # Spark Structured Streaming job
 │
 ├── output/
-│   ├── csv/                         # Streamed output data (part files)
-│   └── checkpoint/                  # Spark streaming state & offsets
+│   ├── csv/                         # Final CSV output (data files)
+│   └──checkpoint/                  # Spark streaming checkpoints
 │
 ├── .gitignore
 └── README.md
+
+
 
 # Data Ingestion
 
