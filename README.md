@@ -48,20 +48,8 @@ Persistent CSV Output (Micro-batches)
 
 # Project Structure
 
-realtime-earthquake-spark/
-│
-├── producer/
-│   └── earthquake_producer.py      # Kafka producer (Python)
-│
-├── spark/
-│   └── spark_streaming_job.py       # Spark Structured Streaming job
-│
-├── output/
-│   ├── csv/                         # Final CSV output (data files)
-│   └──checkpoint/                  # Spark streaming checkpoints
-│
-├── .gitignore
-└── README.md
+<img width="628" height="367" alt="realtime-earthquake-spark" src="https://github.com/user-attachments/assets/82e46d3b-a373-435b-860c-9917fc71d7c6" />
+
 
 
 
